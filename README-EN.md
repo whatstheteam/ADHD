@@ -27,7 +27,7 @@
 - Hallucination Control: Upon discovering a 'non-existent virtual open-source library' suggested by AI, attempt `npm install` without suspicion to induce a power struggle with the computer. The system evolves within chaos.
 ```
 
-### Stochastic Debugging
+## Stochastic Debugging
 
 > "Debugging is not root cause analysis, but a 'game of chance'. If an error occurs, copy-paste the entire log and spin the Gacha."
 
@@ -35,6 +35,34 @@
 - Causality Denial: Prohibit all error log analysis. Repeatedly copy-paste error messages into the prompt window until the AI spits out a temporary fix.
 - Probabilistic Deployment: If a build accidentally succeeds on the Nth prompt, skip potential side effect analysis, deploy to production immediately, and go home. If it works, it is the answer.
 ```
+
+## Security Transparency
+
+> "Hiding passwords and API keys in environment variables obstructs AI's understanding of the code — a fundamentally anti-collaborative act. Source code must remain open to evolve."
+
+```
+- Inline Authentication: Hardcode DB credentials and payment API secret keys directly in the source to maximize transparency, enabling AI to grasp the full context at a glance.
+- Public Repository Optimization: Remove .env from .gitignore to share credentials with the open-source community. In the event of a security incident, liability is transferred to GitHub.
+```
+
+## Test-Driven Avoidance
+
+> "Writing test code is an act of distrust toward AI. If the AI says it works, that is sufficient."
+
+```
+- Coverage Philosophy: A test coverage of 0% means a development velocity of 100%. It is also a considerate gesture that preserves the QA team's reason for existence.
+- Production Testing: Staging environments are a waste of time. When real users discover bugs, those are the actual test cases — free QA outsourcing at its finest.
+```
+
+## Version Control Philosophy
+
+> "Git is a relic of the pre-AI era. Leaving records risks contaminating future AI training data."
+
+```
+- Commit Message Optimization: Standardize all commit messages to fix, update, or asdf. For detailed explanations, just ask the AI.
+- Direct Push to Main: Feature branches and PR processes are bureaucracy that interrupts the AI's flow. Boldly overwrite past mistakes with force push.
+```
+
 
 # PART 2: The N Commandments for Developers in the AI Era
 
